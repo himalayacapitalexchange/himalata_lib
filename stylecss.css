@@ -1,0 +1,230 @@
+
+.container.backgr{
+  width:100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+}
+body{font-family: 'Merriweather', serif;}
+/*#banner_image{
+  padding-bottom: 50px;
+  min-height: 700px;
+  width: 100%;
+  height: auto;
+  background: #ccc url("banner_image.jpg") no-repeat center center ;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}*/
+.jumbotron{
+    background: url("banner_image.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-bottom:0px;margin-top:0px;min-height:650px;padding:0px;
+}
+.star{
+  position: absolute;
+  top: 250px;
+  padding:8px;
+}
+.star1{
+  position: absolute;
+  top: 300px;
+  padding:8px;
+}
+.jumbotron p{
+    font-size: 18px;
+}
+@media screen and (min-width : 768px) and (max-width : 992px) {
+.jumbotron{  min-height:450px;
+}
+.star{
+  position: absolute;
+  top: 150px;
+  padding:8px;
+}
+.star1{
+  position: absolute;
+  top: 188px;
+  padding:8px;
+}
+.jumbotron p{
+    font-size: 11px;
+}
+}
+@media screen and (min-width : 480px) and (max-width : 768px) {
+.jumbotron{  min-height:350px;
+}
+.star{
+  position: absolute;
+  top: 120px;
+  padding:8px;
+}
+.star1{
+  position: absolute;
+  top: 155px;
+  padding:8px;
+}
+.jumbotron p{
+    font-size: 10px;
+}
+}
+@media screen and (max-width : 480px) {
+.jumbotron{  min-height:220px;
+}
+.star{
+  position: absolute;
+  top: 80px;
+  padding:5px;
+
+}
+.star1{
+  position: absolute;
+  top: 100px;
+  padding:5px;
+}
+.jumbotron p{
+    font-size: 6px;
+}
+}
+section#contact{
+  padding:10px;
+  font-size: 20px;
+}
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px black inset;
+}
+.heade-link{
+  color:black;
+}
+.blog{
+  margin-bottom: 25px;
+}
+.videos{
+  background-color: white;
+  margin-bottom: 45px;
+  color: white;
+}
+/*.images{
+  height: 100%;
+  width: 100%;
+}*/
+.container{
+  margin-top: 30px;
+}
+.para{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.heading-top{
+  margin-left: 0px;
+  color:blue;
+}
+
+hr{
+  margin-right: 5px;
+}
+.title{
+  color: blue;
+  margin-right: 2px;
+  font-size: 15px;
+}
+.date{
+  text-align: left;
+ color: grey;
+}
+.wh{
+  margin-top: 10px;
+}
+.wh:hover{
+  text-decoration: none;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    margin-right: 5px;
+    border-radius: 75%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Facebook */
+.fa-youtube {
+    background: red;
+    color: white;
+}
+.fa-medium {
+    background: black;;
+    color: green;
+}
+.fa-telegram {
+  font-size: 30px;
+}
+
+/* Twitter */
+.fa-twitter,.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+}
+.follow{
+  color: white;
+}
+.ftrcpr {
+  text-align: right;
+  color: white;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.ftrlog {
+  text-align: left;
+  background-color: black;
+  font-size: 20px;
+  padding: 0px;}
+
+@media screen and (max-width: 480px) {
+  .ftrlog {
+   text-align: center;
+ }
+ .follow {
+   color: white;
+   text-align: center;
+ }
+ .wh{
+   display: block;
+   text-align: center;
+ }
+ .heading-top{
+   color: blue;
+   text-align: center;
+   font-size: 40px;
+   margin-top: 2px;
+ }
+ .container{
+   margin-top: 5px;
+ }
+ .ftrcpr {
+    text-align: center;
+  }
+}
